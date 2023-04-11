@@ -12,10 +12,10 @@ pipeline {
                echo "Deploying Code"
           }
       }
-      stage('3-testing code'){
-        steps(
+      stage(3-'testing code'){
+         steps{
             sh 'lscpu'
-        )
+         }
       }
    }
 }
