@@ -12,9 +12,9 @@ pipeline {
           }
       }
       stage('3-testing code'){
-        steps(
+        steps{
             sh 'lscpu'
-        )
+        }
       }
    }
 }
